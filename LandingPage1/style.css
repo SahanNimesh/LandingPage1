@@ -1,0 +1,417 @@
+		body{
+			margin: 0px;
+			font-family: arial;
+		}
+		/*navigation*/
+		.nav{
+			position: fixed;
+			margin-top: -140px;
+			width: 100%;
+			font-size: 1.4em;
+			background: #fff;
+			margin-top: -160px;
+			z-index: 1000;
+		}
+		.nav .about{
+			float: left;
+			margin-right: 4%;
+			margin-left: 75%;
+			margin-top: 50px;
+		}
+		.nav .home{
+			padding-left: 1%;
+			margin-top: 50px;
+		}
+		.nav a{
+			text-decoration: none;
+			color: #898989;
+		}
+		.nav hr{
+			margin-top: 50px;
+			margin-bottom: 0px;
+		}
+		.nav img{
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			float: left;
+			margin-top: 30px;
+			margin-left: 30px;
+		}
+
+		/*section two*/
+		.section2{
+			background-image: url('image.jpg');
+			background-color: rgba(0,0,0,0.5);
+			background-attachment: fixed;
+			background-size: cover;
+			width: 100%;
+			height: 747px;
+			color: #fff;
+			font-family: arial;
+			margin-top: 156px;
+			padding-top: 100px;
+		}
+		.first-image-text{
+			padding-top: 165px;
+		}
+		.section2 .first-image-text .vanquisher{
+			font-size: 50px;
+			animation-name: sahan1;
+			animation-duration: 2s;
+			letter-spacing: 2px;
+		}
+		.section2 .first-image-text .consultants{
+			font-size: 50px;
+			margin-top: -40px;
+			animation-name: sahan2;
+			animation-duration: 2s;
+			letter-spacing: 2px;
+		}
+		.section2 .first-image-text hr{
+			width: 100px;
+			margin: -23px auto;
+			animation-name: some;
+			animation-duration: 2s;
+		}
+		.section2 .first-image-text p{
+			font-weight: 1;
+			font-size: 40px;
+			letter-spacing: 2px;
+			animation-name: sahan3;
+			animation-duration: 2s;
+		}
+		@keyframes sahan1{
+			from{
+				color: rgba(255,255,255,0.1);
+				margin-top: 50px;
+			}
+			to{
+				color: rgba(255,255,255,1);
+				margin-top: 35px;
+			}
+		}
+		@keyframes sahan2{
+			from{
+				color: rgba(255,255,255,0.1);
+			}
+			to{
+				color: rgba(255,255,255,1);
+			}
+		}
+		@keyframes sahan3{
+			from{
+				color: rgba(255,255,255,0.1);
+			}
+			to{
+				color: rgba(255,255,255,1);
+			}
+		}
+
+		@keyframes some{
+			from{
+				border-color: rgba(255,255,255,0.1);
+				margin-right: -50%;
+			}
+			to{
+				border-color: rgba(255,255,255,1);
+				margin-right: 46%;
+			}
+		}
+		/*section 3*/
+		.section3{
+			margin-top: -100px;
+			padding-top: 150px;
+			font-family: arial;
+			transform: skew(0deg, 1deg);
+			background: #fff;
+		}
+		.section3 .container{
+			transform: skew(0deg, -1deg);
+		}
+		.section3 h1, .section3 p{
+			animation-name: who;
+			animation-duration: 3s;
+		}
+		@keyframes who{
+			from{
+				color: rgba(0,0,0,0.1);
+			}
+			to{
+				color: rgba(0,0,0,1);
+			}
+		}
+		.section3 p{
+			letter-spacing: 2px;
+			font-weight: 750;
+		}
+		.section3 h1{
+			font-size: 40px;
+			font-weight: 500;
+		}
+		.section3 hr{
+			background: #000;
+			width: 100px;
+			border-width: 1.5px;
+			border-color: #000;
+			margin-top: -10px;
+			margin-bottom: 60px;
+			animation-name: whohr;
+			animation-duration: 3s;
+		}
+		@keyframes whohr{
+			from{
+				margin-right: 0px;
+			}
+			to{
+				margin-right: 622px;
+			}
+		}
+		/*Section 4*/
+		.section4{
+			margin-top: 100px;
+		}
+		.section4 .mission{
+			width: 33%;
+			background: #efefef;
+			float: left;
+			padding-top: 30px;
+			height: 300px;
+		}
+		.section4 .mission img, .section4 .vission img, .section4 .values img{
+			border-radius: 50%;
+			width: 70px;
+			height: 70px;
+		}
+		.section4 .vission{
+			width: 33%;
+			padding-top: 30px;
+			background: #efefef;
+			float: left;
+			height: 300px;
+		}
+		.section4 .values{
+			width: 33%;
+			padding-top: 30px;
+			background: #efefef;
+			float: left;
+			height: 300px;
+		}
+		/*Section 5*/
+		.section5{
+			background-image: url('image.jpg');
+			background-color: rgba(0,0,0,0.5);
+			background-attachment: fixed;
+			background-size: cover;
+			width: 100%; height: 300px;
+			color: #fff;
+			font-family: arial;
+			margin-top: 500px;
+			height: 150px;
+			padding-top: 60px;
+			padding-bottom: 20px;
+		}
+		.section5 p {
+			font-size: 30px;
+			letter-spacing: 0px;
+			font-weight: bolder;
+			animation-name: secp;
+			animation-duration: 3s;
+		}
+		@keyframes secp{
+			from{
+				margin-top: 40px;
+				color: rgba(0,0,0,0.1);
+			}
+			to{
+				margin-top: 20px;
+				color: rgba(0,0,0,1);
+			}
+		}
+
+		.second-image-text{
+			padding-top: 17px;
+			font-size: 1.1em;
+			font-weight: bold;
+			letter-spacing: 5px;
+		}
+		.section5 .second-image-text .vanquisher{
+			animation-name: nimesh1;
+			animation-duration: 2s;
+		}
+		@keyframes nimesh1{
+			from{
+				color: rgba(255,255,255,0.1);
+				margin-top: 50px;
+			}
+			to{
+				color: rgba(255,255,255,1);
+				margin-top: 30px;
+			}
+		}
+		/*section 6*/
+		.section6{
+			margin-top: 100px;
+		}
+		.service{
+			animation-name: sec6;
+			animation-duration: 3s;
+		}
+		@keyframes sec6{
+			from{
+				padding-top: 50px;
+				color: rgba(0,0,0,0.1);
+			}
+			to{
+				padding-top: 0px;
+				color: rgba(0,0,0,1);
+			}
+		}
+		.section6 hr{
+			width: 100px;
+			border-width: 2px;
+			border-color: #000;
+			animation-name: sec6hr;
+			animation-duration: 3s;
+		}
+		@keyframes sec6hr{
+			from{
+				margin-right: 0px;
+			}
+			to{
+				margin-right: 625px;
+			}
+		}
+		.section6 .financial img, .section6 .marketing img, .section6 .human img{
+			border-radius: 50%;
+		}
+		.section6 .financial{
+			width: 33%;
+			float: left;
+			padding-top: 30px;
+			height: 300px;
+			animation-name: not;
+			animation-duration: 3s;
+		}
+		.section6 .marketing{
+			width: 33%;
+			padding-top: 30px;
+			float: left;
+			height: 300px;
+			animation-name: not;
+			animation-duration: 3s;
+		}
+		.section6 .human{
+			width: 33%;
+			padding-top: 30px;
+			float: left;
+			height: 300px;
+			animation-name: not;
+			animation-duration: 3s;
+		}
+		.section6 .coorporate{
+			width: 33%;
+			padding-top: 30px;
+			float: left;
+			height: 300px;
+			animation-name: not;
+			animation-duration: 3s;
+		}
+		.section6 .business{
+			width: 33%;
+			padding-top: 30px;
+			float: left;
+			height: 300px;
+			animation-name: not;
+			animation-duration: 3s;
+		}
+		@keyframes not{
+			from{
+				margin-top: 1px;
+			}
+			to{
+				margin-top: 0px;
+			}
+		}
+
+		/*section 7*/
+		.section7{
+			color: #fff;
+			width: 100%;
+			height: 450px;
+			margin-top: 700px;
+			padding-top: 1px;
+			background: #262633;
+			position: relative;
+			animation-name: sec7;
+			animation-duration: 3s;
+		}
+		@keyframes sec7{
+			from{
+				background: #fff;
+			}
+			to{
+				background: #262633;
+			}
+		}
+		.section7:before{
+			content: '';
+			width: 50%;
+			height: 50px;
+			position: absolute;
+			top: -35px;
+			left: 0px;
+			background: #262633;
+			transform: skewY(2deg);
+			animation-name: sec7;
+			animation-duration: 3s;
+		}
+		.section7:after{
+			content: '';
+			width: 50%;
+			height: 50px;
+			position: absolute;
+			top: -35px;
+			right: 0px;
+			background: #262633;
+			transform: skewY(-2deg);
+			animation-name: sec7;
+			animation-duration: 3s;
+		}
+		.section7 .container{
+			margin-top: 100px;
+			animation-name: sec7container;
+			animation-duration: 5s;
+		}
+		@keyframes sec7container{
+			from{
+				margin-top: 50px;
+				color: rgba(255,255,255,0.1);
+			}
+			to{
+				margin-top: 20px;
+				color: rgba(255,255,255,1);
+			}
+		}
+		.section7 .container .hr1{
+			width: 70px;
+			border-width: 2px;
+			color: #fff;
+		}
+		.section7 .container .hr2{
+			width: 410px;
+			border-width: 2px;
+			color: #fff;
+		}
+		.section7 .container table .td2 h2{
+			margin-top: -40px;
+		}
+		/*footer*/
+		footer{
+			width: 100%;
+			height: 50px;
+			background-color: #000;
+			color: #fff;
+			padding-top: 5px;
+			margin-top: 50px;
+		}
